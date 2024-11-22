@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">LCM and its applications</div>
+
+        <!-- <div class="lesson-content">
+          <div>
+            <h2>Factors:</h2>
+            <p>
+              A factor is a number that divides another number exactly, without leaving a remainder.<br> For example, the factors of 12 are 1, 2, 3, 4, 6, and 12 because these numbers divide 12 evenly. Factors are the building blocks of a number.
+
+            </p>
+            <h2>Multiples:</h2>
+            <p>Multiples are the results you get when you multiply a number by an integer. <br>For instance, the multiples of 5 are 5, 10, 15, 20, …. Multiples keep growing and extend infinitely.
+
+            </p>
+            <h2>Relationship between Factors and Multiples :</h2>
+            <ol>
+              <li><b>Multiples are Generated by Factors:</b>
+                  <ul>
+                    <li>Every number has factors that can be multiplied together to produce multiples. <br>For instance, if 2 is a factor of 10, then 10 can be expressed as a multiple of  2 (i.e.,2 × 5 = 10 ).</li>
+                  </ul>
+              </li>
+              <li><b>Factors are Found Within Multiples:</b>
+                <ul>
+                  <li>Conversely, every multiple of a number contains that number as a factor. <br>For example, in the multiples of 4 (i.e. 4, 8, 12), the number 4 is a factor of each multiple.</li>
+                </ul>
+              </li>
+            </ol>
+            <p>In summary, factors and multiples are two sides of the same coin in mathematics. Factors help us break down numbers into their building blocks, while multiples allow us to explore how numbers can be constructed through multiplication. </p>
+            <br>
+            <hr>
+            <br>
+            <h1 style="text-align: center;"><u>Prime Factors and Factor Trees</u></h1>
+            <h2>Prime Factors : </h2>
+            <p>A prime factor of a number is a factor that is a prime number. In other words, it is a prime number that divides the given number exactly (without leaving a remainder).</p>
+            <h2>Prime Factorisation</h2>
+            <p>Prime factorisation is the process of expressing a number as a product of its prime factors.
+              <br><br><b>Example:</b> Let’s take a number 36 : 
+            </p>
+            <ul>
+              <li>The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36. </li>
+              <li>The prime factors of 36 are 2 and 3.</li>
+              <li>The prime factorisation of 36 is 2 × 2 × 3 × 3 = 2<sup>2</sup> × 3<sup>2</sup> .</li>
+            </ul>
+            <p>How to find the prime factorisation, we will learn next.</p>
+            <h2>Using a Factor Tree to Find Prime Factors :</h2>
+            <p>A factor tree breaks down a number into its prime factors step by step. Here’s how:</p>
+            <h2>Steps to Create a Factor Tree</h2>
+            <ol>
+              <li><b>Start with the Number:</b> Write the number you want to factor at the top of your tree.</li>
+              <li><b>Find Two Factors:</b> Split the number into two factors and write them as branches.</li>
+              <li><b>Repeat for Each Composite Factor:</b> If either factor can be split further (i.e., it’s not prime), continue breaking it down into its factors.</li>
+              <li><b>Circle Prime Numbers:</b> When you reach prime numbers that cannot be factored further, circle them.</li>
+              <li><b>Complete the Tree:</b> Once all branches end in prime numbers, your factor tree is complete.</li>
+            </ol>
+            <p><b>Example:</b> Finding Prime Factors of 48</p>
+            <img src="./assests/explaination/1.png" alt="" width="100%">
+            <p><b>Let’s find the prime factors of 48 using a factor tree:</b></p>
+            <ol>
+              <li>Start with 48 at the top.
+                  <ul><li>Write like this (Step 1 in image)</li></ul>
+              </li>
+              <li>Choose two factors of 48 : 6 and 8.
+                <ul>
+                  <li>Write it like this (Step 2 in image)</li>
+                </ul>
+              </li>
+              <li>Factor 6 into 2 and 3 (both prime) (Step 3 in image).</li>
+              <li>Factor 8 into 4 and 2. (Step 4 in image)
+                <ul>
+                  <li>Continue factoring 4 into 2 and 2. (Step 2 in image)</li>
+                </ul>
+              </li>
+              <li>The tree will look as in the image.</li>
+              <li>Circle all the prime numbers: 2,3. </li>
+              <li>The prime factorisation of 48 is: 48 = 2<sup>4</sup> × 3.</li>
+            </ol>
+            <img src="./assests/explaination/2.png" alt="" width="50%">
+          </div>
+        </div> -->
+        <div class="lesson-content">
+          <div>
+            <h2>Least Common Multiple (LCM):</h2>
+            <p>
+              The Least Common Multiple (LCM) of two or more numbers is the smallest number that is a multiple of each of the numbers. In other words, the LCM is the smallest number that can be divided by all the given numbers without leaving a remainder.
+            </p>
+        
+            <h3>For example:</h3>
+            <p>
+              The multiples of 6 are 6, 12, 18, 24, 30, …<br>
+              The multiples of 8 are 8, 16, 24, 32, …<br><br>
+              The smallest number common in both lists is 24.<br>
+              Thus the LCM of 6 and 8 is 24.
+            </p>
+        
+            <h2>How to Find the LCM:</h2>
+        
+            <h3>1. Listing Multiples Method:</h3>
+            <ul>
+              <li>Write the multiples of each number.</li>
+              <li>Identify the smallest number common to all lists.</li>
+            </ul>
+            <h4>For example:</h4>
+            <p>
+              The multiples of 4 are 4, 8, 12, 16, 20, 24, 28, 32, …<br>
+              The multiples of 5 are 5, 10, 15, 20, 25, 30 …<br><br>
+              The smallest number common in both lists is 20. So, the LCM of 4 and 5 is 20.
+            </p>
+        
+            <h3>2. Prime Factorisation Method:</h3>
+            <ul>
+              <li>Write the prime factorization of each number.</li>
+              <li>Take the highest powers of all prime factors.</li>
+              <li>Multiply them to get the LCM.</li>
+            </ul>
+            <h4>For Example: Find the LCM of 12 and 18.</h4>
+            <p>
+              Prime factorisation of 12 is 2 × 2 × 3 = <span>2<sup>2</sup> × 3</span><br>
+              Prime factorisation of 18 is 2 × 3 × 3 = <span>2 × 3<sup>2</sup></span><br><br>
+              Take the highest power of all prime factors: <span>2<sup>2</sup> × 3<sup>2</sup> = 36</span><br>
+              Hence, the LCM of 12 and 18 is 36.
+            </p>
+        
+            <h3>3. Division Method:</h3>
+            <ul>
+              <li>Write the numbers in a row.</li>
+              <li>Divide them by a common prime factor, repeating until no common factor exists.</li>
+              <li>Multiply all divisors to get the LCM.</li>
+            </ul>
+            <img src="./assests/explaination/1.png" alt="" width="30%">
+            <p>
+              <b>Multiplying all the factors</b> : 2 × 2 × 2 × 3 × 5 = 120. 
+              <br>So, the LCM of 8, 12 and 20 is 120.
+            </p>
+            
+        
+            <h2>LCM Applications:</h2>
+            <p>
+              The Least Common Multiple (LCM) is used in real-life scenarios where we need to find a common period or shared event for two or more repeating cycles. It is helpful in scheduling, organizing items, and solving problems involving synchronized events. LCM is widely applied in problems related to time intervals, arranging items into groups, and ensuring uniformity in distribution.
+            </p>
+        
+            <h3>Example: LCM in Scheduling Events</h3>
+            <p>
+              <b>Problem:</b> Two buses leave a station at the same time. One bus arrives at the station every 12 minutes, and the other every 15 minutes. After how many minutes will both buses arrive at the station together?<br><br>
+        
+              <b>Solution:</b> To find the time when both buses will arrive at the station together, we calculate the LCM of 12 and 15.<br>
+              12 = 2 × 2 × 3,  15 = 3 × 5
+              LCM of 12 and 15 = 2 × 2 × 3 × 5 = 60</span><br><br>
+              Both buses will arrive at the station together after 60 minutes.
+            </p>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "What is the LCM of 18 and 24?",
+    "options": [
+      "60",
+      "66",
+      "72",
+      "81"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q2",
+    "question": "What is the LCM of 2<sup>2</sup> × 3 and 3 <sup>2</sup>× 5?",
+    "options": [
+      "360",
+      "180",
+      "150",
+      "90"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q3",
+    "question": "LCM of 10 and B is 30. Then the value of B is ___?",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q4",
+    "question": "Find the sum of A, B and C?<br><img width='43%' src='./assests/images/1.png'>",
+    "options": [
+      "12",
+      "15",
+      "16",
+      "18"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q5",
+    "question": "Value of LCM(10, 15, 25) - (D+E+F) is _____ ?<br><img width='50%' src='./assests/images/2.png'>",
+    "options": [
+      "60",
+      "105",
+      "115",
+      "125"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q6",
+    "question": "Two runners take 20 minutes and 25 minutes to complete a lap around a park. After how much time will they meet at the starting point?",
+    "options": [
+      "50 minutes",
+      "100 minutes",
+      "150 minutes",
+      "200 minutes"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q7",
+    "question": "A school bell rings every 8 minutes, and a church bell rings every 12 minutes. If they both ring at 9:00 AM, at what time will they ring together next?",
+    "options": [
+      "9:21 PM",
+      "9:21 AM",
+      "9:24 AM",
+      "9:24 PM"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q8",
+    "question": "Liam and Emily are organizing a collection of stamps. Liam decides to arrange the stamps in rows of 9, while Emily prefers rows of 21. If they both end up using all the stamps, what is the smallest number of stamps they could have?",
+    "options": [
+      "30",
+      "42",
+      "63",
+      "189"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q9",
+    "question": "Find the smallest number that leaves a remainder of 3 when divided by 4, 5 and 6.",
+    "options": [
+      "60",
+      "63",
+      "65",
+      "66"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q10",
+    "question": "Find the least number which, when divided by 15, 20 and 30, leaves the same remainder 4 in each case.",
+    "options": [
+      "61",
+      "62",
+      "63",
+      "64"
+    ],
+    "correct": 3
+  }
+]
